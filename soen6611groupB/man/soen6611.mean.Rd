@@ -20,4 +20,5 @@ arr <- c(2, 1, 2, 3, 0)
 soen6611.mean(arr)
 
 soen6611.mean(c(2, 1, 2, 3, 0))
+
 }
