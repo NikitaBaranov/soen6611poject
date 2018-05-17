@@ -5,8 +5,8 @@
 
 ## Install
 In console:
-install.packages("devtools")
-install.packages("roxygen2")
+- install.packages("devtools")  - install tools to build package
+- install.packages("roxygen2")  - install dcoumentation generation tool
 
 ## Open Project
 Inside R: File -> Open Project -> soen6611groupB.Rproj
