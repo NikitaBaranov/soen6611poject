@@ -12,7 +12,8 @@
 soen6611.median <- function(input_array) {
   arraySize <- length(input_array)
   # efficiency is depandent on this line of code below
-  sortedArray <- sort(input_array)
+  # sortedArray <- sort(input_array)
+  sortedArray <- soen6611.quickSort(input_array)
   middleNum1 <-1
   middleNum2 <-2
   medianValues <-0
