@@ -2,7 +2,6 @@
 
 ## Toturials
  - Set up the project and Package.  Watch first 2 - 5 minutes of this video. https://www.youtube.com/watch?v=9GZZ69ywmQs
- - Testing. https://www.youtube.com/watch?v=u2KDSY_8Ay4&t=11s
 
 ## Install
 In console:
@@ -16,5 +15,6 @@ Inside R: File -> Open Project -> soen6611groupB.Rproj
 library(soen6611groupB) - it will load current library
 
 ## Testing
-- install.packages("testthat")  - install testing tool
+- Tutorial - https://www.youtube.com/watch?v=u2KDSY_8Ay4&t=11s
+- Installing - 'install.packages("testthat")'
 - run the tests Build -> Test Package
