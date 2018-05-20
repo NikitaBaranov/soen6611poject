@@ -2,6 +2,7 @@
 
 ## Toturials
  - Set up the project and Package.  Watch first 2 - 5 minutes of this video. https://www.youtube.com/watch?v=9GZZ69ywmQs
+ - Testing. https://www.youtube.com/watch?v=u2KDSY_8Ay4&t=11s
 
 ## Install
 In console:
