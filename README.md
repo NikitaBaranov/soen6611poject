@@ -13,3 +13,7 @@ Inside R: File -> Open Project -> soen6611groupB.Rproj
 
 ## Load our Package
 library(soen6611groupB) - it will load current library
+
+## Testing
+- install.packages("testthat")  - install testing tool
+- run the tests Build -> Test Package
