@@ -3,6 +3,7 @@
 #' @param input_array input array of numbers
 #' @return sorted array of numbers
 #' @export
+#' @keywords internal
 #' @examples
 #' arr <- c(2, 1, 2, 3, 0)
 #' sorted_arr <- soen6611.median(arr)
@@ -22,6 +23,13 @@ soen6611.quickSort <- function(input_array) {
   return (soen6611.merge(soen6611.quickSort(input_array[1:split_point]),  soen6611.quickSort(input_array[split_point_2:length(input_array)])))
 }
 
+#' Merge part of Quick sort.
+#'
+#' @param input_array_1 input array of numbers
+#' @param input_array_2 input array of numbers
+#' @return sorted array of numbers
+#' @export
+#' @keywords internal
 soen6611.merge <- function(input_array_1, input_array_2){
   # print(c("Merge 1 ", input_array_1))
   # print(c("Merge 2 ", input_array_2))
