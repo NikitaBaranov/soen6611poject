@@ -4,7 +4,7 @@
 #' @return the value that appears most frequently in the given data set.
 #'         If there is more than one equal mode the smallest will be returned.
 #'
-soen6611.mode <- function(input_array)
+soen6611.mode.updated <- function(input_array)
   {
   maxcount<- 0
   modevalue<- 0

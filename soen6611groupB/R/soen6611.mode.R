@@ -21,11 +21,20 @@ soen6611.mode <- function(input_array) {
   }
 
   # find max element
-  max_value_index = names(counting_dictionary)[1]
+  max_value_index <- names(counting_dictionary)[1]
+  max_value_array <- names(counting_dictionary)[1]
   for (i in names(counting_dictionary)){
     if(counting_dictionary[[i]] > counting_dictionary[[max_value_index]]){
       max_value_index <- i
+      max_value_array <- i
+    }
+    if( (counting_dictionary[[i]] == counting_dictionary[[max_value_index]]) & !(i %in% max_value_array)){
+      max_value_array <- c(max_value_array, i)
     }
   }
-  return(  as.numeric(max_value_index) )
+  if ( counting_dictionary[[ max_value_array[1] ]] == 1){
+    return ( NA )
+  } else {
+    return( as.numeric(max_value_array) )
+  }
 }

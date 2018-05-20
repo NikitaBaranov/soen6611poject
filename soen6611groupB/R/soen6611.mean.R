@@ -8,7 +8,6 @@
 #' soen6611.mean(arr)
 #'
 #' soen6611.mean(c(2, 1, 2, 3, 0))
-#'
 soen6611.mean <- function(input_array) {
   arraySize <- length(input_array)
   arraySum <- 0
@@ -16,6 +15,6 @@ soen6611.mean <- function(input_array) {
   for(i in 1:arraySize) {
     arraySum <- arraySum + input_array[i]
   }
-  meanResult = arraySum / arraySize
+  meanResult <- arraySum / arraySize
   return(meanResult)
 }

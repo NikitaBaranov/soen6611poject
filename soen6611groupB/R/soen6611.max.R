@@ -4,7 +4,7 @@
 #' @return the largest of the values in the input array
 #' @export
 #' @examples
-#' arr <- <- c(2, 1, 3, 0)
+#' arr <- c(2, 1, 3, 0)
 #' soen6611.max(arr)
 #'
 #' soen6611.max(c(2, 1, 3, 0))
