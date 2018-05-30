@@ -10,6 +10,7 @@
 #'
 #' soen6611.mode(c(2, 1, 3, 0))
 soen6611.mode <- function(input_array) {
+  soen6611.isCorrectArray(input_array)
   counting_dictionary <- list()
   # populate dictionary while count enities
   for (i in 1:length(input_array)){

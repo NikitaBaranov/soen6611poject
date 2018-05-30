@@ -9,6 +9,7 @@
 #'
 #' soen6611.std(c(2, 1, 2, 3, 0))
 soen6611.std <- function(input_array) {
+  soen6611.isCorrectArray(input_array)
   meanValue <- soen6611.mean(input_array)
   arraySize <- length(input_array)
   squareSum <- 0

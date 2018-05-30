@@ -2,7 +2,7 @@
 % Please edit documentation in R/soen6611.sqrt.R
 \name{soen6611.sqrt}
 \alias{soen6611.sqrt}
-\title{Find square root of a number}
+\title{Function to find square root of numbers}
 \usage{
 soen6611.sqrt(number)
 }
@@ -13,8 +13,6 @@ soen6611.sqrt(number)
 square root value
 }
 \description{
-Find square root of a number
+Function to find square root of numbers
 }
-\examples{
-soen6611.sqrt(25)
-}
+\keyword{internal}

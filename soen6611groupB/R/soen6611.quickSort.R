@@ -6,10 +6,9 @@
 #' @keywords internal
 #' @examples
 #' arr <- c(2, 1, 2, 3, 0)
-#' sorted_arr <- soen6611.median(arr)
+#' sorted_arr <- soen6611.quickSort(arr)
 #'
-#' sorted_arr <- soen6611.median(c(2, 1, 2, 3, 0))
-
+#' sorted_arr <- soen6611.quickSort(c(2, 1, 2, 3, 0))
 soen6611.quickSort <- function(input_array) {
   # print(c("length ", length(input_array)))
   if (length(input_array) <= 1){
@@ -27,9 +26,15 @@ soen6611.quickSort <- function(input_array) {
 #'
 #' @param input_array_1 input array of numbers
 #' @param input_array_2 input array of numbers
-#' @return sorted array of numbers
 #' @export
 #' @keywords internal
+#' @return sorted array of numbers
+#' @examples
+#' arr <- c(2, 1, 2, 3, 0)
+#' arr_2 <- c(4, 5, -2, 0)
+#' sorted_arr <- soen6611.merge(arr, arr_2)
+#'
+#' sorted_arr <- soen6611.merge(c(2, 1, 2, 3, 0), c(4, 5, -2, 0))
 soen6611.merge <- function(input_array_1, input_array_2){
   # print(c("Merge 1 ", input_array_1))
   # print(c("Merge 2 ", input_array_2))
