@@ -1,12 +1,4 @@
-#' Function to find square root of numbers
-#'
-#' @param number a number
-#' @export
-#' @keywords internal
-#' @return square root value
-#' @examples
-#' soen6611.sqrt(0.6)
-#' soen6611.sqrt(25)
+# Function to find square root of numbers
 soen6611.sqrt <- function(number)
 {
   sqroot <-0
@@ -33,15 +25,7 @@ soen6611.sqrt <- function(number)
   return(sqroot)
 }
 
-#' Function to find the square root of the numbers between 0 and 1
-#'
-#' @param number a number
-#' @return square root value
-#' @export
-#' @keywords internal
-#' @examples
-#' soen6611.sqrt.expcase(0.6)
-#' soen6611.sqrt.expcase(25)
+# Function to find the square root of the numbers between 0 and 1
 soen6611.sqrt.expcase <- function(number)
 {
   sqroot <-0
