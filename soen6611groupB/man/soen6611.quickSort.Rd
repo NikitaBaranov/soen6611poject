@@ -17,8 +17,8 @@ Quick sort.
 }
 \examples{
 arr <- c(2, 1, 2, 3, 0)
-sorted_arr <- soen6611.median(arr)
+sorted_arr <- soen6611.quickSort(arr)
 
-sorted_arr <- soen6611.median(c(2, 1, 2, 3, 0))
+sorted_arr <- soen6611.quickSort(c(2, 1, 2, 3, 0))
 }
 \keyword{internal}

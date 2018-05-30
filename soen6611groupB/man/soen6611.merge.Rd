@@ -17,4 +17,11 @@ sorted array of numbers
 \description{
 Merge part of Quick sort.
 }
+\examples{
+arr <- c(2, 1, 2, 3, 0)
+arr_2 <- c(4, 5, -2, 0)
+sorted_arr <- soen6611.merge(arr, arr_2)
+
+sorted_arr <- soen6611.merge(c(2, 1, 2, 3, 0), c(4, 5, -2, 0))
+}
 \keyword{internal}

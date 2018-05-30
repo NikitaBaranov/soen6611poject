@@ -15,4 +15,8 @@ square root value
 \description{
 Function to find square root of numbers
 }
+\examples{
+soen6611.sqrt(0.6)
+soen6611.sqrt(25)
+}
 \keyword{internal}

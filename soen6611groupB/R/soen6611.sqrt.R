@@ -9,6 +9,7 @@
 #' soen6611.sqrt(25)
 soen6611.sqrt <- function(number)
 {
+  sqroot <-0
   for (i in 1:number)
   {
     if(number==0 || number==1)
@@ -43,6 +44,7 @@ soen6611.sqrt <- function(number)
 #' soen6611.sqrt.expcase(25)
 soen6611.sqrt.expcase <- function(number)
 {
+  sqroot <-0
   for (i in 1:number)
   {
     root <- i * i

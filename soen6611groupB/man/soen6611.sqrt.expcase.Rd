@@ -16,7 +16,7 @@ square root value
 Function to find the square root of the numbers between 0 and 1
 }
 \examples{
-soen6611.sqrt(0.6)
-soen6611.sqrt(25)
+soen6611.sqrt.expcase(0.6)
+soen6611.sqrt.expcase(25)
 }
 \keyword{internal}

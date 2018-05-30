@@ -7,10 +7,10 @@
 soen6611.isCorrectArray(input_array)
 }
 \arguments{
-\item{input_array}{input array of numbers}
+\item{input_array}{input array of numbers.}
 }
 \value{
-None
+TRUE if input_array has only numbers, FALSE the other cases.
 }
 \description{
 Validate an array to contain only numeric.

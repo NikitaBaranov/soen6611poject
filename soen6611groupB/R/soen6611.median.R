@@ -10,7 +10,9 @@
 #' soen6611.median(c(2, 1, 2, 3, 0))
 
 soen6611.median <- function(input_array) {
-  soen6611.isCorrectArray(input_array)
+  if (! soen6611.isCorrectArray(input_array)){
+    stop('Array must contain only numbers.')
+  }
   arraySize <- length(input_array)
   # efficiency is depandent on this line of code below
   # sortedArray <- sort(input_array)
