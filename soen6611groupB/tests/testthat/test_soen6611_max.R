@@ -17,3 +17,8 @@ test_that("Correct max for random array compared to buit-in function", {
   arr <- sample(0:100, 100, replace=FALSE)
   expect_equal(max(arr), Soen6611Max(arr))
 } )
+
+test_that("Incorrect array to max ", {
+  expect_error(Soen6611Max(c()))
+  expect_error(Soen6611Max(c(5, 6, 100, 1000, 4, 'p')))
+} )

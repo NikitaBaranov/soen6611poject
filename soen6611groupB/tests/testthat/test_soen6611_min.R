@@ -17,3 +17,8 @@ test_that("Correct min for random array compared to buit-in function", {
   arr <- sample(0:100, 100, replace=FALSE)
   expect_equal(min(arr), Soen6611Min(arr))
 } )
+
+test_that("Incorrect array to min ", {
+  expect_error(Soen6611Min(c()))
+  expect_error(Soen6611Min(c(5, 6, 100, 1000, 4, 'p')))
+} )
