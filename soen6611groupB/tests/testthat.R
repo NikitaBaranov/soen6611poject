@@ -1,4 +1,4 @@
 library(testthat)
-library(soen6611groupB)
+library(Soen6611GroupB)
 
-test_check("soen6611groupB")
+test_check("Soen6611GroupB")

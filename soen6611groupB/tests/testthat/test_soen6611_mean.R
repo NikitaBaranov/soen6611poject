@@ -1,4 +1,4 @@
-library(soen6611groupB)
+library(Soen6611GroupB)
 context("soen6611groupB Min tests")
 
 test_that("Correct min for fixed array", {

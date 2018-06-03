@@ -1,4 +1,4 @@
-library(soen6611groupB)
+library(Soen6611GroupB)
 context("soen6611groupB Std tests")
 
 test_that("Correct Std for fixed array", {
