@@ -14,7 +14,7 @@ Soen6611Median <- function(input.array) {
     stop('Array must contain only numbers.')
   }
   array.size <- length(input.array)
-  sorted.array <- Soen6611QuickSort(input.array)
+  sorted.array <- Soen6611MergeSort(input.array)
   middle.num.1 <- 1
   middle.num.2 <- 2
   median.values <- 0

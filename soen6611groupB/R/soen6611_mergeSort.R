@@ -1,11 +1,11 @@
 # Quick sort.
-Soen6611QuickSort <- function(input.array) {
+Soen6611MergeSort <- function(input.array) {
   if (length(input.array) <= 1){
     return (input.array)
   }
   split.point <- length(input.array) %/% 2
   split.point.2 <- split.point + 1
-  return (Soen6611Merge(Soen6611QuickSort(input.array[1:split.point]), Soen6611QuickSort(input.array[split.point.2:length(input.array)])))
+  return (Soen6611Merge(Soen6611MergeSort(input.array[1:split.point]), Soen6611MergeSort(input.array[split.point.2:length(input.array)])))
 }
 
 # Merge part of Quick sort.
