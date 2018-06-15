@@ -21,11 +21,7 @@ Main goals is to provide user with quantitatively description of a collection of
 In console:
 - `install.packages("devtools")`  - install tools to build package
 - `install.packages("roxygen2")`  - install dcoumentation generation tool
+- `install.packages("testthat")`  - install testing tool
 
 ### Open Project
 Inside R: File -> Open Project -> soen6611groupB.Rproj
-
-### Testing
-- Tutorial - https://www.youtube.com/watch?v=u2KDSY_8Ay4&t=11s
-- Installing - 'install.packages("testthat")'
-- run the tests Build -> Test Package
