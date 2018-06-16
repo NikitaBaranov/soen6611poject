@@ -10,8 +10,7 @@ Authors@R: c(
     person("Farnoosh", "Dadkhah Tehrani", email = "f.dadkhaht@gmail.com", role = "aut"),
     person("Anam", "Dang", email = "anamdang91@gmail.com", role = "aut"),
     person("Dinesh", "Pattapu", email = "dineshpattapu@gmail.com", role = "aut"))
-Description: DESCRIPTIVE-STATISTICS 6611 course project 
-    and some other description we will add later
+Description: DESCRIPTIVE-STATISTICS 6611 course project
 License: MIT
 Encoding: UTF-8
 LazyData: true
